@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 const CommandStats = require('./models/CommandStats');
-const { fetchUserGuildMember } = require('./utils'); // Импортируем утилиту
 
 exports.handler = async (event, context) => {
   try {
